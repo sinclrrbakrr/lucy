@@ -104,7 +104,7 @@ function scrollDown() {
 function addVideoToChat(videoURL) {
     var avatar = document.createElement('img');
     avatar.setAttribute("id", "avatar");
-    avatar.setAttribute("src", "perfil.jpg");
+    avatar.setAttribute("src", "perfil.png");
     avatar.classList.add("avatarStyle");
 
     var textElement = document.createElement('div');
@@ -208,7 +208,7 @@ function addTextInChat(text) {
 
     var avatar = document.createElement('img');
     avatar.setAttribute("id", "avatar");
-    avatar.setAttribute("src", "perfil.jpg");
+    avatar.setAttribute("src", "perfil.png");
     avatar.classList.add("avatarStyle");
 
     var textElement = document.createElement('div');
@@ -231,7 +231,7 @@ function addTextInChatScroll(text) {
 
     var avatar = document.createElement('img');
     avatar.setAttribute("id", "avatar");
-    avatar.setAttribute("src", "perfil.jpg");
+    avatar.setAttribute("src", "perfil.png");
     avatar.classList.add("avatarStyle");
 
     var textElement = document.createElement('div');
