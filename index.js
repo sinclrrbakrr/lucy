@@ -132,7 +132,7 @@ function addVideoToChat(videoURL) {
 function addLinkInChat(text, link) {
     var avatar = document.createElement('img');
     avatar.setAttribute("id", "avatar");
-    avatar.setAttribute("src", "./public/images/perfil.jpg");
+    avatar.setAttribute("src", "perfil.png");
 
     var textElement = document.createElement('div');
     textElement.setAttribute("id", "chat-text");
@@ -208,7 +208,7 @@ function addTextInChat(text) {
 
     var avatar = document.createElement('img');
     avatar.setAttribute("id", "avatar");
-    avatar.setAttribute("src", "./public/images/perfil.jpg");
+    avatar.setAttribute("src", "perfil.jpg");
     avatar.classList.add("avatarStyle");
 
     var textElement = document.createElement('div');
@@ -231,7 +231,7 @@ function addTextInChatScroll(text) {
 
     var avatar = document.createElement('img');
     avatar.setAttribute("id", "avatar");
-    avatar.setAttribute("src", "./public/images/perfil.jpg");
+    avatar.setAttribute("src", "perfil.jpg");
     avatar.classList.add("avatarStyle");
 
     var textElement = document.createElement('div');
